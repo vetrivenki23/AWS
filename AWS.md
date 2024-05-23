@@ -1,6 +1,6 @@
-# AWS Acronyms
+# AWS Services
 
-## General AWS Acronyms
+## General AWS
 
 - **AWS**: Amazon Web Services - A comprehensive cloud computing platform provided by Amazon.
 - **S3**: Simple Storage Service - Scalable object storage service for storing and retrieving any amount of data.
@@ -22,6 +22,59 @@
 - **CloudTrail**: AWS CloudTrail - Service for logging and monitoring API calls made to your AWS account.
 - **Route 53**: Amazon Route 53 - Scalable domain name system (DNS) web service.
 - **KMS**: Key Management Service - Managed service for creating and controlling encryption keys.
+- **AMI**: Amazon Machine Image - A template that contains a software configuration (operating system, application server, and applications) used to launch instances.
+
+## EC2 and Related Services
+
+- **EC2**: Elastic Compute Cloud - Provides resizable compute capacity in the cloud.
+- **EBS**: Elastic Block Store - Block storage volumes for use with EC2 instances.
+- **VPC**: Virtual Private Cloud - Allows you to provision a logically isolated section of the AWS cloud for launching resources.
+- **ELB**: Elastic Load Balancing - Distributes incoming application traffic across multiple targets.
+- **ENI**: Elastic Network Interface - A logical networking component in a VPC that represents a virtual network card.
+- **ASG**: Auto Scaling Group - A collection of EC2 instances treated as a logical grouping for the purposes of automatic scaling and management.
+
+## Storage and Backup
+
+- **S3**: Simple Storage Service - Scalable object storage service for storing and retrieving any amount of data.
+- **Glacier**: Amazon S3 Glacier - Low-cost cloud storage service for data archiving and long-term backup.
+- **EFS**: Elastic File System - Fully managed file storage service for use with EC2.
+- **Storage Gateway**: AWS Storage Gateway - Hybrid cloud storage service.
+
+## Security and Identity
+
+- **IAM**: Identity and Access Management - Service for securely controlling access to AWS services and resources.
+- **KMS**: Key Management Service - Managed service for creating and controlling encryption keys.
+- **STS**: Security Token Service - Service that enables you to request temporary, limited-privilege credentials for AWS Identity and Access Management (IAM) users or for users that you authenticate.
+
+## Networking
+
+- **NAT**: Network Address Translation - Allows instances in a private subnet to connect to the internet or other AWS services.
+- **VPN**: Virtual Private Network - Secure connection to AWS resources over the internet.
+- **Direct Connect**: AWS Direct Connect - Dedicated network connection from your premises to AWS.
+- **CloudFront**: Amazon CloudFront - Content delivery network service.
+- **Route 53**: Amazon Route 53 - Scalable domain name system (DNS) web service.
+
+## Management and Governance
+
+- **CloudFormation**: AWS CloudFormation - Service for modeling and setting up AWS resources using templates.
+- **CloudWatch**: Amazon CloudWatch - Monitoring and management service built for developers, system operators, site reliability engineers (SRE), and IT managers.
+- **CloudTrail**: AWS CloudTrail - Service for logging and monitoring API calls made to your AWS account.
+- **Config**: AWS Config - Service for assessing, auditing, and evaluating the configurations of your AWS resources.
+
+## Developer Tools
+
+- **CodeCommit**: AWS CodeCommit - Managed source control service.
+- **CodeBuild**: AWS CodeBuild - Fully managed build service.
+- **CodeDeploy**: AWS CodeDeploy - Service to automate code deployments.
+- **CodePipeline**: AWS CodePipeline - Continuous integration and delivery service.
+
+## Other Related Services
+
+- **Lambda**: AWS Lambda - Serverless compute service that runs code in response to events.
+- **SQS**: Simple Queue Service - Fully managed message queuing service.
+- **SNS**: Simple Notification Service - Managed service for delivering messages from publishers to subscribers.
+- **DynamoDB**: Amazon DynamoDB - Fully managed NoSQL database service.
+- **RDS**: Relational Database Service - Managed relational database service for databases like MySQL, PostgreSQL, Oracle, SQL Server, and Aurora.
 
 ## Security and Compliance Acronyms
 
@@ -36,7 +89,7 @@
 ## Networking and Content Delivery Acronyms
 
 - **VPC**: Virtual Private Cloud - Isolated cloud resources.
-- **NAT****: Network Address Translation - Allows instances in a private subnet to connect to the internet or other AWS services.
+- **NAT**: Network Address Translation - Allows instances in a private subnet to connect to the internet or other AWS services.
 - **VPN**: Virtual Private Network - Secure connection to AWS resources over the internet.
 - **Direct Connect**: AWS Direct Connect - Dedicated network connection from your premises to AWS.
 - **CDN**: Content Delivery Network - Distributed servers that deliver web content and resources based on geographic locations.
